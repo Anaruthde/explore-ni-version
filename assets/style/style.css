@@ -253,9 +253,12 @@ header button {
 
 #coopy {
   margin-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 20px;
   background: #FF7700;
 }
+
 #coopy .coopy-grid-pai {
   max-width: 1400px;
   margin: 0 auto;
