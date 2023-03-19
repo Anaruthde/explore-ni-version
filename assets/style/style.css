@@ -28,7 +28,12 @@ body {
   z-index: -1;
 }
 
+.logo {
+  margin: 15px 10px 10px 50px;
+}
+
 header {
+  background: #2B2869;;
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
@@ -47,6 +52,7 @@ header #nave a {
 }
 header button {
   padding: 15px 35px;
+  margin: 15px 20px 10px 10px;;
   border-radius: 30px;
   border: none;
   background: #FF7700;
