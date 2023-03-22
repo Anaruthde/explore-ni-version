@@ -56,24 +56,6 @@ form{
     height: 1000px;
 }
 
-/*ana ruth: adicionado destaques-h1 do site modelo moderno*/
-.destaque-h1 {
-    max-width: 1400px;
-    margin: 0 auto;
-    margin-top: 50px;
-    font-family: "MuseoModerno", cursive;
-    font-size: 40px;
-    color: #FF7700;
-  }
-
-.destaque-h1 h1::before {
-    content: " ";
-    display: flex;
-    height: 10px;
-    width: 300px;
-    background: #2B2869;
-  }
-
 /* Início da barra laranja com os URGs */
 .lugares{
     display: flex;
@@ -110,11 +92,12 @@ img{
     max-width: 1400px;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 100px;
   }
 
 #experiencia .exp-grid-01 {
@@ -140,6 +123,24 @@ img{
     height: auto;
     width: auto;
   }
+
+    /*ana ruth: adicionado destaques-h1 do site modelo moderno*/
+.destaque-h1 {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: "MuseoModerno", cursive;
+    font-size: 40px;
+    color: #FF7700;
+}
+
+.destaque-h1 h1::before {
+    content: " ";
+    display: flex;
+    height: 10px;
+    width: 300px;
+    background: #2B2869;
+}
 
 /* Classe base do carousel */
 .carousel {
