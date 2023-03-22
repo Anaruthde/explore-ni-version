@@ -1,0 +1,220 @@
+body{
+    background-color: #ffffff;
+    padding-top: 80px; /* Altura do menu */
+    font-family: roboto:Georgia, 'Times New Roman', Times, serif;    
+}
+
+
+form{
+   margin: 2%
+}
+
+.header {
+    position: fixed;
+    top: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+}
+
+/*estilo da imagem estática da home adicionada*/
+.header-img {
+    width: 100%;
+    height: 600px;
+    object-fit: fill;
+}
+
+.menu {
+    background-color: #2e2e2e;
+    text-align: center;
+    
+}
+.menu ul li {
+    display: inline-block;
+    color: #FFFFFF;
+}
+.menu ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 30px 10px;
+    
+}
+.main {
+    padding: 50px 0px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: #eff0f1;
+    height: 1000px;
+}
+
+/* Início da barra laranja com os URGs */
+.lugares{
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: nowrap;
+    flex-direction: wrap; 
+    align-items: baseline;
+    overflow: auto;
+}
+
+.lugar1{
+
+    width: 200px;
+    height: 280px;
+    border-width: 1px;
+    border-color: #f27b13;
+    border-style: solid;
+    background-color: #f27b13;
+    border-radius: 20px;
+    text-align: center;
+    flex: 0 0 auto; 
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+/* Fim da barra laranja com os URGs */
+
+/* Classe base do carousel */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  
+   
+  /* Declaramos alturas, devido ao posicionamento do elemento img */
+  .carousel-item {
+    height: 50rem;
+    background-color: #777;
+  }
+
+  .carousel-item > img {
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 50rem;
+  }
+
+ .Futebol{
+    text-align: justify
+ }
+
+-------------------------------------------------- */
+
+
+
+@charset "UFT-8";
+@font-face {
+    font-family: 'FontePag';
+    src: url(Fontes/Montserrat-VariableFont_wght.ttf);
+}
+
+footer {
+    background-color: #f24b13;
+    margin: auto;
+}
+
+footer h2, footer p, footer a, footer span {
+    color: white;
+    font-family: 'FontePag';
+    line-height: normal;
+    text-align: center ;
+}
+
+.footer-bottom .box-newsletter input {
+    width: 35%;
+    height: 38px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: #f2f2f2;
+    font-family: 'FontePag';
+    text-align: center;
+}
+
+.footer-bottom .box-newsletter button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #151f59;
+    color: white;
+    border-radius: 12px;
+    font-family: 'FontePag';
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer li {
+    list-style: none;
+    text-align: center;
+}
+
+.footer-box .lugardomapa {
+    width: 31%;
+    padding: 1%;
+    float: right;
+    margin-top: 250px;
+}
+
+.footer-box .nomedocurso {
+    width: 40%;
+    float: left;
+    font-size: 35px;
+    padding-left: 8%;
+    line-height: 0;
+    padding-bottom: 3%;
+    padding-top: 2%;
+
+}
+
+footer .wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nomedocurso h2 {
+    padding-left: 10px;
+
+}
+
+.box-newsletter {
+    text-align: center;
+    padding: 25px;
+}
+
+.wrapper {
+    justify-content: space-between;
+}
+
+footer ul {
+    color: white;
+    font-family: 'FontePag';
+    text-align: center ;
+    
+}
+
+.redessociais {
+    padding: 0 15px;
+}
+
+.mapa {
+   padding-right: 1%;
+    float: right;
+    padding-top: 3%;
+}
+
