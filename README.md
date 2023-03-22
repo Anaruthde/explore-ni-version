@@ -7,9 +7,6 @@
 
 <br>
 
-
-### O projeto foi desenvolvido utilizando HTML5, SCSS e Javascript. O HTML5 foi utilizado para criar a estrutura do site e definir a organização dos elementos na página. O SCSS foi utilizado para estilizar o site, fornecendo um design moderno e atraente para os usuários. O Javascript foi utilizado para implementar algumas funcionalidades, como o menu de navegação responsivo e o carrossel de imagens. Funcionalidades
-
 * Informações sobre os principais pontos turísticos da cidade
 * Informações sobre eventos culturais
 <br>
@@ -18,6 +15,6 @@
 
 <br>
 
-### Texto redigido por: @bymec (Github)
+### Parte do texto redigido por: @bymec (Github)
 ### Modelo base 01 de: @bymec https://github.com/bymec/Explore-Nova-Igua-u
 ### Modelo base 02 de: Em breve~
