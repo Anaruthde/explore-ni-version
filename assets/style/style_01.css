@@ -130,7 +130,7 @@ img{
     font-size: 25px;
   }
 
-  #experiencia .exp-grid-01 .img-exp {
+  .experiencia .exp-grid-01 .img-exp {
     position: relative;
     top: -50px;
     width: 100%;
