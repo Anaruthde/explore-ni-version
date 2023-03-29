@@ -197,14 +197,6 @@ img{
  }
 
 
-
-
-@charset "UFT-8";
-@font-face {
-    font-family: 'Montserrat';
-    src: url(Fontes/Montserrat-VariableFont_wght.ttf);
-}
-
 footer {
     background-color: #f24b13;
     margin: auto;
