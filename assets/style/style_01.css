@@ -106,7 +106,7 @@ img{
 
 /*ana ruth: adicionadado os cards com experiências do site modelo moderno*/
 
-#experiencia {
+.experiencia {
     max-width: 1400px;
     margin: 0 auto;
     margin-top: 50px;
@@ -118,7 +118,7 @@ img{
     gap: 80px;
   }
 
-#experiencia .exp-grid-01 {
+.experiencia .exp-grid-01 {
     background: #FF7700;
     padding: 20px 20px;
     width: 400px;
@@ -196,14 +196,6 @@ img{
     text-align: justify
  }
 
-
-
-
-@charset "UFT-8";
-@font-face {
-    font-family: 'Montserrat';
-    src: url(Fontes/Montserrat-VariableFont_wght.ttf);
-}
 
 footer {
     background-color: #f24b13;
