@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter&family=Montserrat&family=MuseoModerno:wght@300&family=Quicksand:wght@500&family=Raleway&display=swap");
+
+
 body {
     background-color: #ffffff;
     padding-top: 80px; /* Altura do menu */
-    font-family: roboto, Georgia; 'Times New Roman', Times, serif;    
+    font-family: "Montserrat";   
 }
-/*ana ruth: tem um erro no tipo de fonte mas tenho ideia no momento de como resolver*/
+
 
 form{
    margin: 2%
@@ -56,7 +59,7 @@ form{
     height: 1000px;
 }
 
-/* Início da barra laranja com os URGs */
+/* Início da barra laranja com os URGs, modificado as cores de imagem e texto */
 .lugares{
     display: flex;
     justify-content: flex-start; 
@@ -76,6 +79,21 @@ form{
     background-color: #f27b13;
     border-radius: 20px;
     text-align: center;
+    color: #ffffff;
+    flex: 0 0 auto; 
+}
+
+.lugar2{
+
+    width: 200px;
+    height: 280px;
+    border-width: 1px;
+    border-color: #F24F13;
+    border-style: solid;
+    background-color: #F24F13;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
     flex: 0 0 auto; 
 }
 
@@ -125,13 +143,14 @@ img{
   }
 
     /*ana ruth: adicionado destaques-h1 do site modelo moderno*/
-.destaque-h1 {
+#destaque-h1 {
     max-width: 1400px;
     margin: 0 auto;
     margin-top: 0 auto;
-    font-family: "MuseoModerno", cursive;
+    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     color: #FF7700;
+    text-align: center;
 }
 
 .destaque-text {
@@ -139,12 +158,12 @@ img{
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 60px;
-    font-family: "Times New Roman", Times, serif; 
+    font-family: "Montserrat", sans-serif;
     font-size: 22px;
     text-align: center;
 }
 
-.destaque-h1 h1::before {
+#destaque-h1 h1::before {
     content: " ";
     display: flex;
     height: 10px;
@@ -177,13 +196,12 @@ img{
     text-align: justify
  }
 
--------------------------------------------------- */
 
 
 
 @charset "UFT-8";
 @font-face {
-    font-family: 'FontePag';
+    font-family: 'Montserrat';
     src: url(Fontes/Montserrat-VariableFont_wght.ttf);
 }
 
@@ -194,7 +212,7 @@ footer {
 
 footer h2, footer p, footer a, footer span {
     color: white;
-    font-family: 'FontePag';
+    font-family: 'Montserrat';
     line-height: normal;
     text-align: center ;
 }
@@ -206,7 +224,7 @@ footer h2, footer p, footer a, footer span {
     border: none;
     outline: none;
     color: #f2f2f2;
-    font-family: 'FontePag';
+    font-family: 'Montserrat';
     text-align: center;
 }
 
@@ -217,7 +235,7 @@ footer h2, footer p, footer a, footer span {
     background-color: #151f59;
     color: white;
     border-radius: 12px;
-    font-family: 'FontePag';
+    font-family: 'Montserrat';
 }
 
 footer a {
@@ -270,7 +288,7 @@ footer .wrapper:after {
 
 footer ul {
     color: white;
-    font-family: 'FontePag';
+    font-family: 'Montserrat';
     text-align: center ;
     
 }
